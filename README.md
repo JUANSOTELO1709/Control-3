@@ -1,6 +1,6 @@
 # Simulación de un Sistema en Espacio de Estados
 
-
+![Image](https://github.com/user-attachments/assets/ef89cd9c-94e5-4bac-a624-f97d124e29c4)
 
 
 Este proyecto implementa una simulación de un sistema en espacio de estados utilizando Python y las bibliotecas `numpy`, `matplotlib` y `scipy`. La simulación representa la evolución de los estados de un sistema de segundo orden (RLC) en el tiempo.
