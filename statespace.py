@@ -12,15 +12,12 @@ def simular_espacio_estados(A, B, C, D, t1, ut, x0=None):
     
     # Definir entrada tipo paso
     u = np.ones_like(t1) * ut
-    
     # Simular la respuesta del sistema
     t_out, y, x = lsim(sistema, U=u, T=t1, X0=x0)
-    
     # Graficar los estados
     plt.figure(figsize=(10, 6))
     for i in range(x.shape[1]):
         plt.plot(t_out, x[:, i], label=f'Estado {i+1}')
-    
     # Configurar etiquetas y título del gráfico
     plt.xlabel('Tiempo (s)')
     plt.ylabel('Estados')
