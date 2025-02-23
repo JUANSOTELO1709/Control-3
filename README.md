@@ -40,4 +40,17 @@ B = np.array([[0],
 C = np.array([[1, 1]])
 D = np.array([[0]])
 ```
+# Requisitos
+Asegúrate de tener instaladas las siguientes bibliotecas:
+```python
+pip install numpy matplotlib scipy
 
+```
+
+## Para la ejecucion
+Para ejecutar el script:
+```python
+
+python statespace.py
+```
+Este código permite analizar el comportamiento de un sistema dinámico definido en espacio de estados y visualizar su evolución en el tiempo.
