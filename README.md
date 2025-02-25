@@ -26,10 +26,10 @@ Esta función realiza lo siguiente:
 ## Ejemplo de Uso
 
 El código define un sistema RLC con (o tus valores):
-- `R1 = 10 Ω`
-- `L1 = 2 H`
-- `C1 = 0.01 F`
-- Entrada `ei = 1 V`
+- `R1 = 10 Ω (o 100)`
+- `L1 = 2 H( o 0.5)`
+- `C1 = 0.01 (o 0.006) F`
+- Entrada `ei = 1 V(o 5 V)`
 
 Las matrices del sistema son:
 ```python
